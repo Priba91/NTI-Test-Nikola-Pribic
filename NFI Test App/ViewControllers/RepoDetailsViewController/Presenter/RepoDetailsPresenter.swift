@@ -8,14 +8,14 @@
 import Foundation
 
 class RepoDetailsPresenter {
-    let view: RepoDetailsViewDelegate
+    let view: RepoDetailsViewDelegate?
     let networkClient: APIProtocol
     var presentedRepo: Repo
     var repoDetails: RepoDetails?
     var repoTags: [RepoTag]?
     var user: User?
 
-    init(view: RepoDetailsViewDelegate, networkClient: APIProtocol = NetworkManager(), presentedRepo: Repo, user: User?) {
+    init(view: RepoDetailsViewDelegate?, networkClient: APIProtocol = NetworkManager(), presentedRepo: Repo, user: User?) {
         self.view = view
         self.networkClient = networkClient
         self.presentedRepo = presentedRepo
@@ -25,7 +25,7 @@ class RepoDetailsPresenter {
     func fetchRepoDetails() {
         networkClient.getRepoDetails(for: presentedRepo) { repoDetails, error in
             if let error = error {
-                self.view.showError(error: error)
+                self.view?.showError(error: error)
                 return
             }
             self.repoDetails = repoDetails
@@ -33,15 +33,15 @@ class RepoDetailsPresenter {
         }
     }
     
-    func fetchRepoTags() {
+    private func fetchRepoTags() {
         networkClient.getRepoTags(for: presentedRepo) { repoTags, error in
             if let error = error {
-                self.view.showError(error: error)
+                self.view?.showError(error: error)
                 return
             }
 
             self.repoTags = repoTags
-            self.view.updateUI(repoTags: self.repoTags)
+            self.view?.updateUI(repoTags: self.repoTags)
         }
     }
     

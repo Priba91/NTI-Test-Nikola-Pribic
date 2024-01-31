@@ -8,13 +8,13 @@
 import Foundation
 
 class UserReposPresenter {
-    let view: UserReposViewDelegate
+    let view: UserReposViewDelegate?
     let networkClient: APIProtocol
     
     var userRepos: [Repo]?
     var user: User?
     
-    init(_ view: UserReposViewDelegate, networkClient: APIProtocol = NetworkManager()) {
+    init(_ view: UserReposViewDelegate?, networkClient: APIProtocol = NetworkManager()) {
         self.view = view
         self.networkClient = networkClient
     }
@@ -22,7 +22,7 @@ class UserReposPresenter {
     func fetchData() {
         networkClient.getUserDetails(completition: { user, error in
             if let error = error {
-                self.view.showError(error: error)
+                self.view?.showError(error: error)
                 return
             }
             self.user = user
@@ -33,11 +33,11 @@ class UserReposPresenter {
     private func fetchUserRepos() {
         networkClient.getUserRepos { userRepos, error in
             if let error = error {
-                self.view.showError(error: error)
+                self.view?.showError(error: error)
                 return
             }
             self.userRepos = userRepos
-            self.view.updateUI(repos: userRepos)
+            self.view?.updateUI(repos: userRepos)
         }
     }
 

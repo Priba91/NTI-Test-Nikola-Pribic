@@ -14,7 +14,6 @@
 		D1109C512B692C20006C807E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1109C4F2B692C20006C807E /* Main.storyboard */; };
 		D1109C532B692C21006C807E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1109C522B692C21006C807E /* Assets.xcassets */; };
 		D1109C562B692C21006C807E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1109C542B692C21006C807E /* LaunchScreen.storyboard */; };
-		D1109C612B692C21006C807E /* NFI_Test_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C602B692C21006C807E /* NFI_Test_AppTests.swift */; };
 		D1109C6B2B692C21006C807E /* NFI_Test_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C6A2B692C21006C807E /* NFI_Test_AppUITests.swift */; };
 		D1109C6D2B692C21006C807E /* NFI_Test_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C6C2B692C21006C807E /* NFI_Test_AppUITestsLaunchTests.swift */; };
 		D1109C7C2B692DAF006C807E /* APIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C7A2B692DAF006C807E /* APIProtocol.swift */; };
@@ -32,14 +31,48 @@
 		D12C41F92B6A53D000C178A2 /* VerticalTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D12C41F72B6A53D000C178A2 /* VerticalTextTableViewCell.xib */; };
 		D1635C6C2B6A637C001FF5EC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1635C6B2B6A637C001FF5EC /* NetworkManager.swift */; };
 		D1635C6E2B6A7BDE001FF5EC /* NFI_Test_UserReposPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1635C6D2B6A7BDE001FF5EC /* NFI_Test_UserReposPresenter.swift */; };
-		D1635C6F2B6A7BF4001FF5EC /* RepoDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389EB2B699A9000C728F0 /* RepoDetailsPresenter.swift */; };
-		D1635C702B6A7BF7001FF5EC /* RepoDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389EB2B699A9000C728F0 /* RepoDetailsPresenter.swift */; };
 		D1635C712B6A7C06001FF5EC /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C8E2B6936CF006C807E /* NetworkClient.swift */; };
-		D1635C722B6A7C06001FF5EC /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C8E2B6936CF006C807E /* NetworkClient.swift */; };
 		D1635C732B6A7C09001FF5EC /* NetworkMockClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C902B6936E0006C807E /* NetworkMockClient.swift */; };
-		D1635C742B6A7C09001FF5EC /* NetworkMockClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C902B6936E0006C807E /* NetworkMockClient.swift */; };
 		D1635C752B6A7C0C001FF5EC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1635C6B2B6A637C001FF5EC /* NetworkManager.swift */; };
-		D1635C762B6A7C0C001FF5EC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1635C6B2B6A637C001FF5EC /* NetworkManager.swift */; };
+		D16FA1BB2B6A8ECF00A3B45C /* UserReposPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389D82B6984CE00C728F0 /* UserReposPresenter.swift */; };
+		D16FA1BC2B6A8F3300A3B45C /* UserReposViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389CD2B69741900C728F0 /* UserReposViewController.swift */; };
+		D16FA1BD2B6A8F3C00A3B45C /* APIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C7A2B692DAF006C807E /* APIProtocol.swift */; };
+		D16FA1BE2B6A8F6E00A3B45C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389CF2B69745000C728F0 /* BaseViewController.swift */; };
+		D16FA1BF2B6A8F8B00A3B45C /* UserReposViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389D62B69838C00C728F0 /* UserReposViewDelegate.swift */; };
+		D16FA1C02B6A90EC00A3B45C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C932B693BC5006C807E /* User.swift */; };
+		D16FA1C12B6A90EF00A3B45C /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389C62B69601600C728F0 /* Repo.swift */; };
+		D16FA1C22B6A90F100A3B45C /* RepoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389EF2B699E3A00C728F0 /* RepoDetails.swift */; };
+		D16FA1C32B6A90F400A3B45C /* RepoTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389F52B69A20D00C728F0 /* RepoTag.swift */; };
+		D16FA1C42B6A90F600A3B45C /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389F92B69A39D00C728F0 /* Commit.swift */; };
+		D16FA1C52B6A90F900A3B45C /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C852B6932BA006C807E /* APIError.swift */; };
+		D16FA1C62B6A90FF00A3B45C /* RepoTagsMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = D1E389F72B69A24E00C728F0 /* RepoTagsMockData.json */; };
+		D16FA1C72B6A90FF00A3B45C /* UserMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = D1EAC3212B69539400E2FEC6 /* UserMockData.json */; };
+		D16FA1C82B6A90FF00A3B45C /* RepoDetailsMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = D1E389F32B69A06B00C728F0 /* RepoDetailsMockData.json */; };
+		D16FA1C92B6A90FF00A3B45C /* UserReposMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = D1E389C52B695F4D00C728F0 /* UserReposMockData.json */; };
+		D16FA1CA2B6A910500A3B45C /* ClientHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C7F2B693172006C807E /* ClientHandler.swift */; };
+		D16FA1CB2B6A910500A3B45C /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C7B2B692DAF006C807E /* NetworkConstants.swift */; };
+		D16FA1CC2B6A910C00A3B45C /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389DB2B698DD900C728F0 /* BaseView.swift */; };
+		D16FA1CD2B6A911200A3B45C /* RepoHeaderPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E38A062B6A3B3300C728F0 /* RepoHeaderPresenter.swift */; };
+		D16FA1CE2B6A911200A3B45C /* RepoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389FC2B69AE7600C728F0 /* RepoHeaderView.swift */; };
+		D16FA1D02B6A912000A3B45C /* RepoTagVerticalTextCellPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12C41F32B6A535200C178A2 /* RepoTagVerticalTextCellPresenter.swift */; };
+		D16FA1D12B6A912000A3B45C /* VerticalTextCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12C41F12B6A532800C178A2 /* VerticalTextCellProtocol.swift */; };
+		D16FA1D22B6A912500A3B45C /* VerticalTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12C41F62B6A53D000C178A2 /* VerticalTextTableViewCell.swift */; };
+		D16FA1D42B6A913900A3B45C /* RepoDetailsViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389ED2B699AB300C728F0 /* RepoDetailsViewDelegate.swift */; };
+		D16FA1D52B6A913900A3B45C /* RepoDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389EB2B699A9000C728F0 /* RepoDetailsPresenter.swift */; };
+		D16FA1D62B6A913900A3B45C /* RepoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389E92B699A7200C728F0 /* RepoDetailsViewController.swift */; };
+		D16FA1D72B6A914C00A3B45C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1109C8C2B69341A006C807E /* Localizable.strings */; };
+		D16FA1D82B6A915900A3B45C /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C882B693303006C807E /* StringExtension.swift */; };
+		D16FA1D92B6A916700A3B45C /* UserRepoHorisontalTextCellPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E38A3C2B6A4A1500C728F0 /* UserRepoHorisontalTextCellPresenter.swift */; };
+		D16FA1DA2B6A916E00A3B45C /* HorisontalTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E38A3E2B6A4A8F00C728F0 /* HorisontalTextTableViewCell.swift */; };
+		D16FA1DB2B6A917300A3B45C /* HorisontalTextCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E38A3A2B6A49DB00C728F0 /* HorisontalTextCellProtocol.swift */; };
+		D16FA1DD2B6A926300A3B45C /* RepoHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1E389FE2B69AE7D00C728F0 /* RepoHeaderView.xib */; };
+		D16FA1DE2B6A926900A3B45C /* VerticalTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D12C41F72B6A53D000C178A2 /* VerticalTextTableViewCell.xib */; };
+		D16FA1DF2B6A926F00A3B45C /* HorisontalTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1E38A432B6A4B3C00C728F0 /* HorisontalTextTableViewCell.xib */; };
+		D16FA1E02B6A928800A3B45C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C492B692C20006C807E /* AppDelegate.swift */; };
+		D16FA1E12B6A928800A3B45C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C4B2B692C20006C807E /* SceneDelegate.swift */; };
+		D16FA1E22B6A928B00A3B45C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1109C4F2B692C20006C807E /* Main.storyboard */; };
+		D16FA1E32B6A929000A3B45C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1109C522B692C21006C807E /* Assets.xcassets */; };
+		D16FA1E52B6A936500A3B45C /* NFI_Test_RepoDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16FA1E42B6A936500A3B45C /* NFI_Test_RepoDetailsPresenter.swift */; };
 		D1E389C42B695D6800C728F0 /* UserMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = D1EAC3212B69539400E2FEC6 /* UserMockData.json */; };
 		D1E389C72B69601600C728F0 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389C62B69601600C728F0 /* Repo.swift */; };
 		D1E389C92B69625300C728F0 /* UserReposMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = D1E389C52B695F4D00C728F0 /* UserReposMockData.json */; };
@@ -97,7 +130,6 @@
 		D1109C552B692C21006C807E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1109C572B692C21006C807E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1109C5C2B692C21006C807E /* NFI Test AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NFI Test AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1109C602B692C21006C807E /* NFI_Test_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFI_Test_AppTests.swift; sourceTree = "<group>"; };
 		D1109C662B692C21006C807E /* NFI Test AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NFI Test AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1109C6A2B692C21006C807E /* NFI_Test_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFI_Test_AppUITests.swift; sourceTree = "<group>"; };
 		D1109C6C2B692C21006C807E /* NFI_Test_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFI_Test_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -116,6 +148,7 @@
 		D12C41F72B6A53D000C178A2 /* VerticalTextTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VerticalTextTableViewCell.xib; sourceTree = "<group>"; };
 		D1635C6B2B6A637C001FF5EC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		D1635C6D2B6A7BDE001FF5EC /* NFI_Test_UserReposPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFI_Test_UserReposPresenter.swift; sourceTree = "<group>"; };
+		D16FA1E42B6A936500A3B45C /* NFI_Test_RepoDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFI_Test_RepoDetailsPresenter.swift; sourceTree = "<group>"; };
 		D1E389C52B695F4D00C728F0 /* UserReposMockData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UserReposMockData.json; sourceTree = "<group>"; };
 		D1E389C62B69601600C728F0 /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
 		D1E389CD2B69741900C728F0 /* UserReposViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserReposViewController.swift; sourceTree = "<group>"; };
@@ -226,8 +259,8 @@
 		D1109C5F2B692C21006C807E /* NFI Test AppTests */ = {
 			isa = PBXGroup;
 			children = (
-				D1109C602B692C21006C807E /* NFI_Test_AppTests.swift */,
 				D1635C6D2B6A7BDE001FF5EC /* NFI_Test_UserReposPresenter.swift */,
+				D16FA1E42B6A936500A3B45C /* NFI_Test_RepoDetailsPresenter.swift */,
 			);
 			path = "NFI Test AppTests";
 			sourceTree = "<group>";
@@ -564,6 +597,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D16FA1D72B6A914C00A3B45C /* Localizable.strings in Resources */,
+				D16FA1C72B6A90FF00A3B45C /* UserMockData.json in Resources */,
+				D16FA1DE2B6A926900A3B45C /* VerticalTextTableViewCell.xib in Resources */,
+				D16FA1DF2B6A926F00A3B45C /* HorisontalTextTableViewCell.xib in Resources */,
+				D16FA1E32B6A929000A3B45C /* Assets.xcassets in Resources */,
+				D16FA1C82B6A90FF00A3B45C /* RepoDetailsMockData.json in Resources */,
+				D16FA1C92B6A90FF00A3B45C /* UserReposMockData.json in Resources */,
+				D16FA1E22B6A928B00A3B45C /* Main.storyboard in Resources */,
+				D16FA1C62B6A90FF00A3B45C /* RepoTagsMockData.json in Resources */,
+				D16FA1DD2B6A926300A3B45C /* RepoHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -700,12 +743,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D16FA1C02B6A90EC00A3B45C /* User.swift in Sources */,
+				D16FA1E52B6A936500A3B45C /* NFI_Test_RepoDetailsPresenter.swift in Sources */,
+				D16FA1BF2B6A8F8B00A3B45C /* UserReposViewDelegate.swift in Sources */,
+				D16FA1D22B6A912500A3B45C /* VerticalTextTableViewCell.swift in Sources */,
+				D16FA1DA2B6A916E00A3B45C /* HorisontalTextTableViewCell.swift in Sources */,
+				D16FA1C42B6A90F600A3B45C /* Commit.swift in Sources */,
 				D1635C752B6A7C0C001FF5EC /* NetworkManager.swift in Sources */,
-				D1635C6F2B6A7BF4001FF5EC /* RepoDetailsPresenter.swift in Sources */,
+				D16FA1D52B6A913900A3B45C /* RepoDetailsPresenter.swift in Sources */,
+				D16FA1BC2B6A8F3300A3B45C /* UserReposViewController.swift in Sources */,
+				D16FA1E02B6A928800A3B45C /* AppDelegate.swift in Sources */,
+				D16FA1D62B6A913900A3B45C /* RepoDetailsViewController.swift in Sources */,
+				D16FA1D82B6A915900A3B45C /* StringExtension.swift in Sources */,
+				D16FA1CD2B6A911200A3B45C /* RepoHeaderPresenter.swift in Sources */,
+				D16FA1BE2B6A8F6E00A3B45C /* BaseViewController.swift in Sources */,
 				D1635C732B6A7C09001FF5EC /* NetworkMockClient.swift in Sources */,
-				D1109C612B692C21006C807E /* NFI_Test_AppTests.swift in Sources */,
+				D16FA1C12B6A90EF00A3B45C /* Repo.swift in Sources */,
+				D16FA1D92B6A916700A3B45C /* UserRepoHorisontalTextCellPresenter.swift in Sources */,
+				D16FA1D12B6A912000A3B45C /* VerticalTextCellProtocol.swift in Sources */,
+				D16FA1DB2B6A917300A3B45C /* HorisontalTextCellProtocol.swift in Sources */,
+				D16FA1D02B6A912000A3B45C /* RepoTagVerticalTextCellPresenter.swift in Sources */,
+				D16FA1CE2B6A911200A3B45C /* RepoHeaderView.swift in Sources */,
+				D16FA1BB2B6A8ECF00A3B45C /* UserReposPresenter.swift in Sources */,
+				D16FA1C32B6A90F400A3B45C /* RepoTag.swift in Sources */,
+				D16FA1CB2B6A910500A3B45C /* NetworkConstants.swift in Sources */,
 				D1635C6E2B6A7BDE001FF5EC /* NFI_Test_UserReposPresenter.swift in Sources */,
 				D1635C712B6A7C06001FF5EC /* NetworkClient.swift in Sources */,
+				D16FA1CA2B6A910500A3B45C /* ClientHandler.swift in Sources */,
+				D16FA1C22B6A90F100A3B45C /* RepoDetails.swift in Sources */,
+				D16FA1BD2B6A8F3C00A3B45C /* APIProtocol.swift in Sources */,
+				D16FA1E12B6A928800A3B45C /* SceneDelegate.swift in Sources */,
+				D16FA1D42B6A913900A3B45C /* RepoDetailsViewDelegate.swift in Sources */,
+				D16FA1CC2B6A910C00A3B45C /* BaseView.swift in Sources */,
+				D16FA1C52B6A90F900A3B45C /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,12 +783,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1635C762B6A7C0C001FF5EC /* NetworkManager.swift in Sources */,
-				D1635C702B6A7BF7001FF5EC /* RepoDetailsPresenter.swift in Sources */,
-				D1635C742B6A7C09001FF5EC /* NetworkMockClient.swift in Sources */,
 				D1109C6D2B692C21006C807E /* NFI_Test_AppUITestsLaunchTests.swift in Sources */,
 				D1109C6B2B692C21006C807E /* NFI_Test_AppUITests.swift in Sources */,
-				D1635C722B6A7C06001FF5EC /* NetworkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -949,6 +1015,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YD7HPC9JX2;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
@@ -970,6 +1037,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YD7HPC9JX2;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;

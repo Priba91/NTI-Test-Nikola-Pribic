@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  NFI Test App
+
+  Created by Nikola Pribic on 30.1.24..
+  
+*/
+
+"generic_error" = "Something went wrong...";
+"offline_error" = "No internet connection...";
+"error_alert_title" = "Opss...";
+"error_alert_retry" = "Retry";
+"error_alert_cancel" = "Cancel";
+
+"opened_issues" = "Opened issues";
+"user_repos_title" = "User Repos";
+
+"empty_tags_list" = "There is no tags for this repo.";

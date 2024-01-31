@@ -7,15 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F7DE3741FD1C726B1EA3CB4 /* libPods-NFI Test AppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0818C2E1798722DB8CB0FBAF /* libPods-NFI Test AppTests.a */; };
+		5FFE469D2E2ED180CB1298F2 /* libPods-NFI Test App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7D88C0F723E7F4F117A651 /* libPods-NFI Test App.a */; };
 		D1109C4A2B692C20006C807E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C492B692C20006C807E /* AppDelegate.swift */; };
 		D1109C4C2B692C20006C807E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C4B2B692C20006C807E /* SceneDelegate.swift */; };
-		D1109C4E2B692C20006C807E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C4D2B692C20006C807E /* ViewController.swift */; };
 		D1109C512B692C20006C807E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1109C4F2B692C20006C807E /* Main.storyboard */; };
 		D1109C532B692C21006C807E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1109C522B692C21006C807E /* Assets.xcassets */; };
 		D1109C562B692C21006C807E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1109C542B692C21006C807E /* LaunchScreen.storyboard */; };
 		D1109C612B692C21006C807E /* NFI_Test_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C602B692C21006C807E /* NFI_Test_AppTests.swift */; };
 		D1109C6B2B692C21006C807E /* NFI_Test_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C6A2B692C21006C807E /* NFI_Test_AppUITests.swift */; };
 		D1109C6D2B692C21006C807E /* NFI_Test_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C6C2B692C21006C807E /* NFI_Test_AppUITestsLaunchTests.swift */; };
+		D1109C7C2B692DAF006C807E /* APIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C7A2B692DAF006C807E /* APIProtocol.swift */; };
+		D1109C7D2B692DAF006C807E /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C7B2B692DAF006C807E /* NetworkConstants.swift */; };
+		D1109C802B693172006C807E /* ClientHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C7F2B693172006C807E /* ClientHandler.swift */; };
+		D1109C862B6932BA006C807E /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C852B6932BA006C807E /* APIError.swift */; };
+		D1109C892B693303006C807E /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C882B693303006C807E /* StringExtension.swift */; };
+		D1109C8D2B69341A006C807E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1109C8C2B69341A006C807E /* Localizable.strings */; };
+		D1109C8F2B6936CF006C807E /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C8E2B6936CF006C807E /* NetworkClient.swift */; };
+		D1109C912B6936E0006C807E /* NetworkMockClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C902B6936E0006C807E /* NetworkMockClient.swift */; };
+		D1109C942B693BC5006C807E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C932B693BC5006C807E /* User.swift */; };
+		D12C41F22B6A532800C178A2 /* VerticalTextCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12C41F12B6A532800C178A2 /* VerticalTextCellProtocol.swift */; };
+		D12C41F42B6A535200C178A2 /* RepoTagVerticalTextCellPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12C41F32B6A535200C178A2 /* RepoTagVerticalTextCellPresenter.swift */; };
+		D12C41F82B6A53D000C178A2 /* VerticalTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12C41F62B6A53D000C178A2 /* VerticalTextTableViewCell.swift */; };
+		D12C41F92B6A53D000C178A2 /* VerticalTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D12C41F72B6A53D000C178A2 /* VerticalTextTableViewCell.xib */; };
+		D1635C6C2B6A637C001FF5EC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1635C6B2B6A637C001FF5EC /* NetworkManager.swift */; };
+		D1635C6E2B6A7BDE001FF5EC /* NFI_Test_UserReposPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1635C6D2B6A7BDE001FF5EC /* NFI_Test_UserReposPresenter.swift */; };
+		D1635C6F2B6A7BF4001FF5EC /* RepoDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389EB2B699A9000C728F0 /* RepoDetailsPresenter.swift */; };
+		D1635C702B6A7BF7001FF5EC /* RepoDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389EB2B699A9000C728F0 /* RepoDetailsPresenter.swift */; };
+		D1635C712B6A7C06001FF5EC /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C8E2B6936CF006C807E /* NetworkClient.swift */; };
+		D1635C722B6A7C06001FF5EC /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C8E2B6936CF006C807E /* NetworkClient.swift */; };
+		D1635C732B6A7C09001FF5EC /* NetworkMockClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C902B6936E0006C807E /* NetworkMockClient.swift */; };
+		D1635C742B6A7C09001FF5EC /* NetworkMockClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C902B6936E0006C807E /* NetworkMockClient.swift */; };
+		D1635C752B6A7C0C001FF5EC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1635C6B2B6A637C001FF5EC /* NetworkManager.swift */; };
+		D1635C762B6A7C0C001FF5EC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1635C6B2B6A637C001FF5EC /* NetworkManager.swift */; };
+		D1E389C42B695D6800C728F0 /* UserMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = D1EAC3212B69539400E2FEC6 /* UserMockData.json */; };
+		D1E389C72B69601600C728F0 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389C62B69601600C728F0 /* Repo.swift */; };
+		D1E389C92B69625300C728F0 /* UserReposMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = D1E389C52B695F4D00C728F0 /* UserReposMockData.json */; };
+		D1E389CE2B69741900C728F0 /* UserReposViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389CD2B69741900C728F0 /* UserReposViewController.swift */; };
+		D1E389D02B69745000C728F0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389CF2B69745000C728F0 /* BaseViewController.swift */; };
+		D1E389D72B69838C00C728F0 /* UserReposViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389D62B69838C00C728F0 /* UserReposViewDelegate.swift */; };
+		D1E389D92B6984CE00C728F0 /* UserReposPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389D82B6984CE00C728F0 /* UserReposPresenter.swift */; };
+		D1E389DC2B698DD900C728F0 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389DB2B698DD900C728F0 /* BaseView.swift */; };
+		D1E389EA2B699A7200C728F0 /* RepoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389E92B699A7200C728F0 /* RepoDetailsViewController.swift */; };
+		D1E389EC2B699A9000C728F0 /* RepoDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389EB2B699A9000C728F0 /* RepoDetailsPresenter.swift */; };
+		D1E389EE2B699AB300C728F0 /* RepoDetailsViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389ED2B699AB300C728F0 /* RepoDetailsViewDelegate.swift */; };
+		D1E389F02B699E3A00C728F0 /* RepoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389EF2B699E3A00C728F0 /* RepoDetails.swift */; };
+		D1E389F42B69A06B00C728F0 /* RepoDetailsMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = D1E389F32B69A06B00C728F0 /* RepoDetailsMockData.json */; };
+		D1E389F62B69A20D00C728F0 /* RepoTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389F52B69A20D00C728F0 /* RepoTag.swift */; };
+		D1E389F82B69A24E00C728F0 /* RepoTagsMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = D1E389F72B69A24E00C728F0 /* RepoTagsMockData.json */; };
+		D1E389FA2B69A39D00C728F0 /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389F92B69A39D00C728F0 /* Commit.swift */; };
+		D1E389FD2B69AE7600C728F0 /* RepoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389FC2B69AE7600C728F0 /* RepoHeaderView.swift */; };
+		D1E389FF2B69AE7D00C728F0 /* RepoHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1E389FE2B69AE7D00C728F0 /* RepoHeaderView.xib */; };
+		D1E38A072B6A3B3300C728F0 /* RepoHeaderPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E38A062B6A3B3300C728F0 /* RepoHeaderPresenter.swift */; };
+		D1E38A3B2B6A49DB00C728F0 /* HorisontalTextCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E38A3A2B6A49DB00C728F0 /* HorisontalTextCellProtocol.swift */; };
+		D1E38A3D2B6A4A1500C728F0 /* UserRepoHorisontalTextCellPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E38A3C2B6A4A1500C728F0 /* UserRepoHorisontalTextCellPresenter.swift */; };
+		D1E38A402B6A4A8F00C728F0 /* HorisontalTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E38A3E2B6A4A8F00C728F0 /* HorisontalTextTableViewCell.swift */; };
+		D1E38A442B6A4B3C00C728F0 /* HorisontalTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1E38A432B6A4B3C00C728F0 /* HorisontalTextTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +83,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0818C2E1798722DB8CB0FBAF /* libPods-NFI Test AppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NFI Test AppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7D88C0F723E7F4F117A651 /* libPods-NFI Test App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NFI Test App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E2B1BC7A4375DA9A89046EC /* Pods-NFI Test App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFI Test App.release.xcconfig"; path = "Target Support Files/Pods-NFI Test App/Pods-NFI Test App.release.xcconfig"; sourceTree = "<group>"; };
+		21D49E85B6C6C2C2F13D6EBB /* Pods-NFI Test AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFI Test AppTests.debug.xcconfig"; path = "Target Support Files/Pods-NFI Test AppTests/Pods-NFI Test AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		71520B415E5B7B5930A6D6CD /* Pods-NFI Test AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFI Test AppTests.release.xcconfig"; path = "Target Support Files/Pods-NFI Test AppTests/Pods-NFI Test AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8256C4071097934D884DA8BD /* Pods-NFI Test App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFI Test App.debug.xcconfig"; path = "Target Support Files/Pods-NFI Test App/Pods-NFI Test App.debug.xcconfig"; sourceTree = "<group>"; };
 		D1109C462B692C20006C807E /* NFI Test App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NFI Test App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1109C492B692C20006C807E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1109C4B2B692C20006C807E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D1109C4D2B692C20006C807E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D1109C502B692C20006C807E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1109C522B692C21006C807E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1109C552B692C21006C807E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +101,44 @@
 		D1109C662B692C21006C807E /* NFI Test AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NFI Test AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1109C6A2B692C21006C807E /* NFI_Test_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFI_Test_AppUITests.swift; sourceTree = "<group>"; };
 		D1109C6C2B692C21006C807E /* NFI_Test_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFI_Test_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D1109C7A2B692DAF006C807E /* APIProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIProtocol.swift; sourceTree = "<group>"; };
+		D1109C7B2B692DAF006C807E /* NetworkConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		D1109C7F2B693172006C807E /* ClientHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientHandler.swift; sourceTree = "<group>"; };
+		D1109C852B6932BA006C807E /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		D1109C882B693303006C807E /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		D1109C8C2B69341A006C807E /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		D1109C8E2B6936CF006C807E /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		D1109C902B6936E0006C807E /* NetworkMockClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMockClient.swift; sourceTree = "<group>"; };
+		D1109C932B693BC5006C807E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D12C41F12B6A532800C178A2 /* VerticalTextCellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VerticalTextCellProtocol.swift; path = "NFI Test App/CustomViews/TableViewCells/HorisontalTextTableViewCell/VerticalTextCellProtocol.swift"; sourceTree = SOURCE_ROOT; };
+		D12C41F32B6A535200C178A2 /* RepoTagVerticalTextCellPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTagVerticalTextCellPresenter.swift; sourceTree = "<group>"; };
+		D12C41F62B6A53D000C178A2 /* VerticalTextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalTextTableViewCell.swift; sourceTree = "<group>"; };
+		D12C41F72B6A53D000C178A2 /* VerticalTextTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VerticalTextTableViewCell.xib; sourceTree = "<group>"; };
+		D1635C6B2B6A637C001FF5EC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		D1635C6D2B6A7BDE001FF5EC /* NFI_Test_UserReposPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFI_Test_UserReposPresenter.swift; sourceTree = "<group>"; };
+		D1E389C52B695F4D00C728F0 /* UserReposMockData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UserReposMockData.json; sourceTree = "<group>"; };
+		D1E389C62B69601600C728F0 /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		D1E389CD2B69741900C728F0 /* UserReposViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserReposViewController.swift; sourceTree = "<group>"; };
+		D1E389CF2B69745000C728F0 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		D1E389D62B69838C00C728F0 /* UserReposViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserReposViewDelegate.swift; sourceTree = "<group>"; };
+		D1E389D82B6984CE00C728F0 /* UserReposPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserReposPresenter.swift; sourceTree = "<group>"; };
+		D1E389DB2B698DD900C728F0 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		D1E389E92B699A7200C728F0 /* RepoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailsViewController.swift; sourceTree = "<group>"; };
+		D1E389EB2B699A9000C728F0 /* RepoDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailsPresenter.swift; sourceTree = "<group>"; };
+		D1E389ED2B699AB300C728F0 /* RepoDetailsViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailsViewDelegate.swift; sourceTree = "<group>"; };
+		D1E389EF2B699E3A00C728F0 /* RepoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetails.swift; sourceTree = "<group>"; };
+		D1E389F32B69A06B00C728F0 /* RepoDetailsMockData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RepoDetailsMockData.json; sourceTree = "<group>"; };
+		D1E389F52B69A20D00C728F0 /* RepoTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTag.swift; sourceTree = "<group>"; };
+		D1E389F72B69A24E00C728F0 /* RepoTagsMockData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RepoTagsMockData.json; sourceTree = "<group>"; };
+		D1E389F92B69A39D00C728F0 /* Commit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commit.swift; sourceTree = "<group>"; };
+		D1E389FC2B69AE7600C728F0 /* RepoHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoHeaderView.swift; sourceTree = "<group>"; };
+		D1E389FE2B69AE7D00C728F0 /* RepoHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepoHeaderView.xib; sourceTree = "<group>"; };
+		D1E38A062B6A3B3300C728F0 /* RepoHeaderPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoHeaderPresenter.swift; sourceTree = "<group>"; };
+		D1E38A3A2B6A49DB00C728F0 /* HorisontalTextCellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorisontalTextCellProtocol.swift; sourceTree = "<group>"; };
+		D1E38A3C2B6A4A1500C728F0 /* UserRepoHorisontalTextCellPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepoHorisontalTextCellPresenter.swift; sourceTree = "<group>"; };
+		D1E38A3E2B6A4A8F00C728F0 /* HorisontalTextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorisontalTextTableViewCell.swift; sourceTree = "<group>"; };
+		D1E38A432B6A4B3C00C728F0 /* HorisontalTextTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HorisontalTextTableViewCell.xib; sourceTree = "<group>"; };
+		D1EAC3212B69539400E2FEC6 /* UserMockData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UserMockData.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FFE469D2E2ED180CB1298F2 /* libPods-NFI Test App.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F7DE3741FD1C726B1EA3CB4 /* libPods-NFI Test AppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +168,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85006259CFA1A7A841E2BB8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8256C4071097934D884DA8BD /* Pods-NFI Test App.debug.xcconfig */,
+				0E2B1BC7A4375DA9A89046EC /* Pods-NFI Test App.release.xcconfig */,
+				21D49E85B6C6C2C2F13D6EBB /* Pods-NFI Test AppTests.debug.xcconfig */,
+				71520B415E5B7B5930A6D6CD /* Pods-NFI Test AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		94DC240548D3FF1F3B009916 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A7D88C0F723E7F4F117A651 /* libPods-NFI Test App.a */,
+				0818C2E1798722DB8CB0FBAF /* libPods-NFI Test AppTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D1109C3D2B692C20006C807E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +195,8 @@
 				D1109C5F2B692C21006C807E /* NFI Test AppTests */,
 				D1109C692B692C21006C807E /* NFI Test AppUITests */,
 				D1109C472B692C20006C807E /* Products */,
+				85006259CFA1A7A841E2BB8D /* Pods */,
+				94DC240548D3FF1F3B009916 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +213,12 @@
 		D1109C482B692C20006C807E /* NFI Test App */ = {
 			isa = PBXGroup;
 			children = (
-				D1109C492B692C20006C807E /* AppDelegate.swift */,
-				D1109C4B2B692C20006C807E /* SceneDelegate.swift */,
-				D1109C4D2B692C20006C807E /* ViewController.swift */,
-				D1109C4F2B692C20006C807E /* Main.storyboard */,
-				D1109C522B692C21006C807E /* Assets.xcassets */,
-				D1109C542B692C21006C807E /* LaunchScreen.storyboard */,
-				D1109C572B692C21006C807E /* Info.plist */,
+				D1109C822B693294006C807E /* Models */,
+				D1109C792B692DAF006C807E /* Networking */,
+				D1E389DA2B698DC700C728F0 /* CustomViews */,
+				D1E389CA2B69661900C728F0 /* ViewControllers */,
+				D1109C812B693223006C807E /* Supporting Files */,
+				D1109C872B6932F3006C807E /* Extensions */,
 			);
 			path = "NFI Test App";
 			sourceTree = "<group>";
@@ -114,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				D1109C602B692C21006C807E /* NFI_Test_AppTests.swift */,
+				D1635C6D2B6A7BDE001FF5EC /* NFI_Test_UserReposPresenter.swift */,
 			);
 			path = "NFI Test AppTests";
 			sourceTree = "<group>";
@@ -127,6 +241,203 @@
 			path = "NFI Test AppUITests";
 			sourceTree = "<group>";
 		};
+		D1109C792B692DAF006C807E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D1EAC3202B69534B00E2FEC6 /* MockData */,
+				D1635C6A2B6A6362001FF5EC /* ClientHandler */,
+				D1109C7A2B692DAF006C807E /* APIProtocol.swift */,
+				D1635C6B2B6A637C001FF5EC /* NetworkManager.swift */,
+				D1109C8E2B6936CF006C807E /* NetworkClient.swift */,
+				D1109C902B6936E0006C807E /* NetworkMockClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D1109C812B693223006C807E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1109C492B692C20006C807E /* AppDelegate.swift */,
+				D1109C4B2B692C20006C807E /* SceneDelegate.swift */,
+				D1109C4F2B692C20006C807E /* Main.storyboard */,
+				D1109C522B692C21006C807E /* Assets.xcassets */,
+				D1109C542B692C21006C807E /* LaunchScreen.storyboard */,
+				D1109C572B692C21006C807E /* Info.plist */,
+				D1109C8C2B69341A006C807E /* Localizable.strings */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1109C822B693294006C807E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D1109C932B693BC5006C807E /* User.swift */,
+				D1E389C62B69601600C728F0 /* Repo.swift */,
+				D1E389EF2B699E3A00C728F0 /* RepoDetails.swift */,
+				D1E389F52B69A20D00C728F0 /* RepoTag.swift */,
+				D1E389F92B69A39D00C728F0 /* Commit.swift */,
+				D1109C842B6932A1006C807E /* APIError */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D1109C842B6932A1006C807E /* APIError */ = {
+			isa = PBXGroup;
+			children = (
+				D1109C852B6932BA006C807E /* APIError.swift */,
+			);
+			path = APIError;
+			sourceTree = "<group>";
+		};
+		D1109C872B6932F3006C807E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D1109C882B693303006C807E /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D12C41EF2B6A530400C178A2 /* VerticalTextTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D12C41F02B6A531300C178A2 /* Presenter */,
+				D12C41F62B6A53D000C178A2 /* VerticalTextTableViewCell.swift */,
+				D12C41F72B6A53D000C178A2 /* VerticalTextTableViewCell.xib */,
+			);
+			path = VerticalTextTableViewCell;
+			sourceTree = "<group>";
+		};
+		D12C41F02B6A531300C178A2 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D12C41F12B6A532800C178A2 /* VerticalTextCellProtocol.swift */,
+				D12C41F32B6A535200C178A2 /* RepoTagVerticalTextCellPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D1635C6A2B6A6362001FF5EC /* ClientHandler */ = {
+			isa = PBXGroup;
+			children = (
+				D1109C7F2B693172006C807E /* ClientHandler.swift */,
+				D1109C7B2B692DAF006C807E /* NetworkConstants.swift */,
+			);
+			path = ClientHandler;
+			sourceTree = "<group>";
+		};
+		D1E389CA2B69661900C728F0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D1E389CF2B69745000C728F0 /* BaseViewController.swift */,
+				D1E389CB2B69663800C728F0 /* UserReposViewController */,
+				D1E389CC2B69665C00C728F0 /* RepoDetailsViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D1E389CB2B69663800C728F0 /* UserReposViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D1E389D12B69825600C728F0 /* Presenter */,
+				D1E389CD2B69741900C728F0 /* UserReposViewController.swift */,
+			);
+			path = UserReposViewController;
+			sourceTree = "<group>";
+		};
+		D1E389CC2B69665C00C728F0 /* RepoDetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D1E389E82B699A6A00C728F0 /* Presenter */,
+				D1E389E92B699A7200C728F0 /* RepoDetailsViewController.swift */,
+			);
+			path = RepoDetailsViewController;
+			sourceTree = "<group>";
+		};
+		D1E389D12B69825600C728F0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D1E389D62B69838C00C728F0 /* UserReposViewDelegate.swift */,
+				D1E389D82B6984CE00C728F0 /* UserReposPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D1E389DA2B698DC700C728F0 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				D1E389DB2B698DD900C728F0 /* BaseView.swift */,
+				D1E389FB2B69AE6100C728F0 /* RepoHeaderView */,
+				D1E389DD2B698E5500C728F0 /* TableViewCells */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		D1E389DD2B698E5500C728F0 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				D12C41EF2B6A530400C178A2 /* VerticalTextTableViewCell */,
+				D1E38A382B6A49B900C728F0 /* HorisontalTextTableViewCell */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		D1E389E82B699A6A00C728F0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D1E389EB2B699A9000C728F0 /* RepoDetailsPresenter.swift */,
+				D1E389ED2B699AB300C728F0 /* RepoDetailsViewDelegate.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D1E389FB2B69AE6100C728F0 /* RepoHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				D1E38A052B6A3B0A00C728F0 /* Presenter */,
+				D1E389FC2B69AE7600C728F0 /* RepoHeaderView.swift */,
+				D1E389FE2B69AE7D00C728F0 /* RepoHeaderView.xib */,
+			);
+			path = RepoHeaderView;
+			sourceTree = "<group>";
+		};
+		D1E38A052B6A3B0A00C728F0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D1E38A062B6A3B3300C728F0 /* RepoHeaderPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D1E38A382B6A49B900C728F0 /* HorisontalTextTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D1E38A422B6A4A9500C728F0 /* Presenter */,
+				D1E38A3E2B6A4A8F00C728F0 /* HorisontalTextTableViewCell.swift */,
+				D1E38A432B6A4B3C00C728F0 /* HorisontalTextTableViewCell.xib */,
+			);
+			path = HorisontalTextTableViewCell;
+			sourceTree = "<group>";
+		};
+		D1E38A422B6A4A9500C728F0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D1E38A3A2B6A49DB00C728F0 /* HorisontalTextCellProtocol.swift */,
+				D1E38A3C2B6A4A1500C728F0 /* UserRepoHorisontalTextCellPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D1EAC3202B69534B00E2FEC6 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				D1EAC3212B69539400E2FEC6 /* UserMockData.json */,
+				D1E389C52B695F4D00C728F0 /* UserReposMockData.json */,
+				D1E389F32B69A06B00C728F0 /* RepoDetailsMockData.json */,
+				D1E389F72B69A24E00C728F0 /* RepoTagsMockData.json */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +445,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1109C702B692C21006C807E /* Build configuration list for PBXNativeTarget "NFI Test App" */;
 			buildPhases = (
+				BBE8420F5BA2573C7476E553 /* [CP] Check Pods Manifest.lock */,
 				D1109C422B692C20006C807E /* Sources */,
 				D1109C432B692C20006C807E /* Frameworks */,
 				D1109C442B692C20006C807E /* Resources */,
+				4B17CD281E089A6C1CF950FB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,9 +464,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1109C732B692C21006C807E /* Build configuration list for PBXNativeTarget "NFI Test AppTests" */;
 			buildPhases = (
+				5E58A924018AF9647FE2D0C5 /* [CP] Check Pods Manifest.lock */,
 				D1109C582B692C21006C807E /* Sources */,
 				D1109C592B692C21006C807E /* Frameworks */,
 				D1109C5A2B692C21006C807E /* Resources */,
+				8BA48591C4ED4757EF442B78 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,8 +546,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1E389C92B69625300C728F0 /* UserReposMockData.json in Resources */,
+				D1E389F82B69A24E00C728F0 /* RepoTagsMockData.json in Resources */,
+				D1E389C42B695D6800C728F0 /* UserMockData.json in Resources */,
 				D1109C562B692C21006C807E /* LaunchScreen.storyboard in Resources */,
+				D1E389F42B69A06B00C728F0 /* RepoDetailsMockData.json in Resources */,
+				D1109C8D2B69341A006C807E /* Localizable.strings in Resources */,
+				D12C41F92B6A53D000C178A2 /* VerticalTextTableViewCell.xib in Resources */,
+				D1E389FF2B69AE7D00C728F0 /* RepoHeaderView.xib in Resources */,
 				D1109C532B692C21006C807E /* Assets.xcassets in Resources */,
+				D1E38A442B6A4B3C00C728F0 /* HorisontalTextTableViewCell.xib in Resources */,
 				D1109C512B692C20006C807E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +576,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B17CD281E089A6C1CF950FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NFI Test App/Pods-NFI Test App-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NFI Test App/Pods-NFI Test App-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NFI Test App/Pods-NFI Test App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E58A924018AF9647FE2D0C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NFI Test AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BA48591C4ED4757EF442B78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NFI Test AppTests/Pods-NFI Test AppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NFI Test AppTests/Pods-NFI Test AppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NFI Test AppTests/Pods-NFI Test AppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBE8420F5BA2573C7476E553 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NFI Test App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D1109C422B692C20006C807E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1109C4E2B692C20006C807E /* ViewController.swift in Sources */,
+				D1E389D72B69838C00C728F0 /* UserReposViewDelegate.swift in Sources */,
+				D1109C7C2B692DAF006C807E /* APIProtocol.swift in Sources */,
+				D12C41F82B6A53D000C178A2 /* VerticalTextTableViewCell.swift in Sources */,
+				D1109C912B6936E0006C807E /* NetworkMockClient.swift in Sources */,
+				D1E389EA2B699A7200C728F0 /* RepoDetailsViewController.swift in Sources */,
+				D1E389D92B6984CE00C728F0 /* UserReposPresenter.swift in Sources */,
+				D1E38A3D2B6A4A1500C728F0 /* UserRepoHorisontalTextCellPresenter.swift in Sources */,
+				D1109C802B693172006C807E /* ClientHandler.swift in Sources */,
+				D1E389FD2B69AE7600C728F0 /* RepoHeaderView.swift in Sources */,
+				D1E389C72B69601600C728F0 /* Repo.swift in Sources */,
+				D12C41F42B6A535200C178A2 /* RepoTagVerticalTextCellPresenter.swift in Sources */,
+				D1E38A3B2B6A49DB00C728F0 /* HorisontalTextCellProtocol.swift in Sources */,
+				D12C41F22B6A532800C178A2 /* VerticalTextCellProtocol.swift in Sources */,
+				D1E389D02B69745000C728F0 /* BaseViewController.swift in Sources */,
+				D1E389EC2B699A9000C728F0 /* RepoDetailsPresenter.swift in Sources */,
+				D1E389EE2B699AB300C728F0 /* RepoDetailsViewDelegate.swift in Sources */,
+				D1E389FA2B69A39D00C728F0 /* Commit.swift in Sources */,
+				D1109C7D2B692DAF006C807E /* NetworkConstants.swift in Sources */,
+				D1635C6C2B6A637C001FF5EC /* NetworkManager.swift in Sources */,
+				D1109C892B693303006C807E /* StringExtension.swift in Sources */,
+				D1109C8F2B6936CF006C807E /* NetworkClient.swift in Sources */,
+				D1E38A402B6A4A8F00C728F0 /* HorisontalTextTableViewCell.swift in Sources */,
 				D1109C4A2B692C20006C807E /* AppDelegate.swift in Sources */,
+				D1E38A072B6A3B3300C728F0 /* RepoHeaderPresenter.swift in Sources */,
+				D1E389F02B699E3A00C728F0 /* RepoDetails.swift in Sources */,
 				D1109C4C2B692C20006C807E /* SceneDelegate.swift in Sources */,
+				D1E389F62B69A20D00C728F0 /* RepoTag.swift in Sources */,
+				D1E389CE2B69741900C728F0 /* UserReposViewController.swift in Sources */,
+				D1109C862B6932BA006C807E /* APIError.swift in Sources */,
+				D1109C942B693BC5006C807E /* User.swift in Sources */,
+				D1E389DC2B698DD900C728F0 /* BaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +700,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1635C752B6A7C0C001FF5EC /* NetworkManager.swift in Sources */,
+				D1635C6F2B6A7BF4001FF5EC /* RepoDetailsPresenter.swift in Sources */,
+				D1635C732B6A7C09001FF5EC /* NetworkMockClient.swift in Sources */,
 				D1109C612B692C21006C807E /* NFI_Test_AppTests.swift in Sources */,
+				D1635C6E2B6A7BDE001FF5EC /* NFI_Test_UserReposPresenter.swift in Sources */,
+				D1635C712B6A7C06001FF5EC /* NetworkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +713,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1635C762B6A7C0C001FF5EC /* NetworkManager.swift in Sources */,
+				D1635C702B6A7BF7001FF5EC /* RepoDetailsPresenter.swift in Sources */,
+				D1635C742B6A7C09001FF5EC /* NetworkMockClient.swift in Sources */,
 				D1109C6D2B692C21006C807E /* NFI_Test_AppUITestsLaunchTests.swift in Sources */,
 				D1109C6B2B692C21006C807E /* NFI_Test_AppUITests.swift in Sources */,
+				D1635C722B6A7C06001FF5EC /* NetworkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +762,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -368,7 +810,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -384,6 +826,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -425,7 +868,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -437,25 +880,28 @@
 		};
 		D1109C712B692C21006C807E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8256C4071097934D884DA8BD /* Pods-NFI Test App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YD7HPC9JX2;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "NFI Test App/Info.plist";
+				INFOPLIST_FILE = "NFI Test App/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.NFI.TestApp.NFI-Test-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NFI.TestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -465,25 +911,28 @@
 		};
 		D1109C722B692C21006C807E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E2B1BC7A4375DA9A89046EC /* Pods-NFI Test App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YD7HPC9JX2;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "NFI Test App/Info.plist";
+				INFOPLIST_FILE = "NFI Test App/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.NFI.TestApp.NFI-Test-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NFI.TestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -493,6 +942,7 @@
 		};
 		D1109C742B692C21006C807E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21D49E85B6C6C2C2F13D6EBB /* Pods-NFI Test AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +963,7 @@
 		};
 		D1109C752B692C21006C807E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71520B415E5B7B5930A6D6CD /* Pods-NFI Test AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

@@ -1,0 +1,6 @@
+module Pods_NFI_Test_App {
+  umbrella header "Pods-NFI Test App-umbrella.h"
+
+  export *
+  module * { export * }
+}

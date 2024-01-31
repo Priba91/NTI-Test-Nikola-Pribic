@@ -36,9 +36,7 @@ class RepoHeaderView: BaseView {
         watchersCountLabel.text = presenter.getRepoForksCountString()
     }
     
-    private func loadAvatarImage(from url: String) {
-        //SDWebImage wont work for some reason, so here's another solution :)
-        
+    private func loadAvatarImage(from url: String) {        
         DispatchQueue.global(qos: .userInteractive).async {
             guard let url = URL(string: url),
                   let data = try? Data(contentsOf: url)

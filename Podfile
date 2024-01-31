@@ -3,11 +3,9 @@
 
 target 'NFI Test App' do
   pod 'Alamofire'
-  pod 'SDWebImage'
 end
 
 target 'NFI Test AppTests' do
   pod 'Alamofire'
-  pod 'SDWebImage'
 end
 

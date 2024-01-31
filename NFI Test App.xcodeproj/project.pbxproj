@@ -474,7 +474,6 @@
 				D1109C422B692C20006C807E /* Sources */,
 				D1109C432B692C20006C807E /* Frameworks */,
 				D1109C442B692C20006C807E /* Resources */,
-				4B17CD281E089A6C1CF950FB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -493,7 +492,6 @@
 				D1109C582B692C21006C807E /* Sources */,
 				D1109C592B692C21006C807E /* Frameworks */,
 				D1109C5A2B692C21006C807E /* Resources */,
-				8BA48591C4ED4757EF442B78 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -610,23 +608,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4B17CD281E089A6C1CF950FB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NFI Test App/Pods-NFI Test App-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NFI Test App/Pods-NFI Test App-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NFI Test App/Pods-NFI Test App-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5E58A924018AF9647FE2D0C5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -647,23 +628,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8BA48591C4ED4757EF442B78 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NFI Test AppTests/Pods-NFI Test AppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NFI Test AppTests/Pods-NFI Test AppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NFI Test AppTests/Pods-NFI Test AppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BBE8420F5BA2573C7476E553 /* [CP] Check Pods Manifest.lock */ = {

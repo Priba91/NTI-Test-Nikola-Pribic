@@ -40,22 +40,6 @@ final class NetworkMockClient: APIProtocol {
         }
     }
     
-    func getRepoDetails(for repo: Repo, completition: @escaping (_ repoDetails: RepoDetails?, _ error: APIError?) -> Void) {
-        guard let path = Bundle.main.path(forResource: "RepoDetailsMockData", ofType: "json")
-        else {
-            completition(nil, APIError(.Generic))
-            return
-        }
-        
-        do {
-            let data = try Data(contentsOf: URL(fileURLWithPath: path))
-            let repoDetails = try JSONDecoder().decode(RepoDetails.self, from: data)
-            completition(repoDetails, nil)
-        } catch {
-            completition(nil, APIError(.Generic))
-        }
-    }
-    
     func getRepoTags(for repo: Repo, completition: @escaping (_ repoTags: [RepoTag]?, _ error: APIError?) -> Void) {
         guard let path = Bundle.main.path(forResource: "RepoTagsMockData", ofType: "json")
         else {

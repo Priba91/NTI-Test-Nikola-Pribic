@@ -8,11 +8,11 @@
 import Foundation
 
 class RepoHeaderPresenter {
-    let repoDetails: RepoDetails?
+    let repo: Repo?
     let user: User?
     
-    init(repoDetails: RepoDetails?, user: User?) {
-        self.repoDetails = repoDetails
+    init(repo: Repo?, user: User?) {
+        self.repo = repo
         self.user = user
     }
     
@@ -25,14 +25,14 @@ class RepoHeaderPresenter {
     }
 
     func getRepoName() -> String {
-        return repoDetails?.name ?? ""
+        return repo?.name ?? ""
     }
     
     func getRepoForksCountString() -> String {
-        return "\(repoDetails?.forksCount ?? 0)"
+        return "\(repo?.forksCount ?? 0)"
     }
     
     func getRepoWatchersCountString() -> String {
-        return "\(repoDetails?.watchersCount ?? 0)"
+        return "\(repo?.watchersCount ?? 0)"
     }
 }

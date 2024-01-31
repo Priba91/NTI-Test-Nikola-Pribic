@@ -41,22 +41,6 @@ final class NetworkClient: APIProtocol {
         }
     }
     
-    func getRepoDetails(for repo: Repo, completition: @escaping (_ repoDetails: RepoDetails?, _ error: APIError?) -> Void) {
-        let endPoint = "/repos/octocat/\(repo.getName())"
-        ClientHandler.shared.request(method: .get, url: NetworkConstants.getBaseUrl(with: endPoint)) { responseData, error in
-            if let responseData = responseData {
-                do {
-                    let repoDetails = try JSONDecoder().decode(RepoDetails.self, from: responseData)
-                    completition(repoDetails, nil)
-                } catch {
-                    completition(nil, APIError(.Generic))
-                }
-            } else {
-                completition(nil, error)
-            }
-        }
-    }
-    
     func getRepoTags(for repo: Repo, completition: @escaping (_ repoTags: [RepoTag]?, _ error: APIError?) -> Void) {
         let endPoint = "/repos/octocat/\(repo.getName())/tags"
         ClientHandler.shared.request(method: .get, url: NetworkConstants.getBaseUrl(with: endPoint)) { responseData, error in

@@ -34,7 +34,7 @@ class RepoDetailsViewController: BaseViewController, RepoDetailsViewDelegate {
     
     private func getData() {
         showLoader()
-        presenter?.fetchRepoDetails()
+        presenter?.fetchRepoTags()
     }
     
     func updateUI(repoTags: [RepoTag]?) {
@@ -58,15 +58,14 @@ class RepoDetailsViewController: BaseViewController, RepoDetailsViewDelegate {
     private func getHeaderView() -> UIView? {
         guard let presenter = presenter else { return nil }
         let headerView = RepoHeaderView(frame: CGRect(x: 0, y: 0, width: tableView.frame.size.width, height: repoHeaderHeight))
-        headerView.presenter = RepoHeaderPresenter(repoDetails: presenter.repoDetails, user: presenter.user)
+        headerView.presenter = RepoHeaderPresenter(repo: presenter.presentedRepo, user: presenter.user)
         headerView.translatesAutoresizingMaskIntoConstraints = false
         
         return headerView
     }
     
     private func getHeaderViewHeight() -> CGFloat {
-        guard let presenter = presenter,
-              let _ = presenter.repoDetails
+        guard let presenter = presenter
         else { return 0.0 }
         return repoHeaderHeight
     }

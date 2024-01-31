@@ -41,13 +41,11 @@
 		D16FA1BF2B6A8F8B00A3B45C /* UserReposViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389D62B69838C00C728F0 /* UserReposViewDelegate.swift */; };
 		D16FA1C02B6A90EC00A3B45C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C932B693BC5006C807E /* User.swift */; };
 		D16FA1C12B6A90EF00A3B45C /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389C62B69601600C728F0 /* Repo.swift */; };
-		D16FA1C22B6A90F100A3B45C /* RepoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389EF2B699E3A00C728F0 /* RepoDetails.swift */; };
 		D16FA1C32B6A90F400A3B45C /* RepoTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389F52B69A20D00C728F0 /* RepoTag.swift */; };
 		D16FA1C42B6A90F600A3B45C /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389F92B69A39D00C728F0 /* Commit.swift */; };
 		D16FA1C52B6A90F900A3B45C /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C852B6932BA006C807E /* APIError.swift */; };
 		D16FA1C62B6A90FF00A3B45C /* RepoTagsMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = D1E389F72B69A24E00C728F0 /* RepoTagsMockData.json */; };
 		D16FA1C72B6A90FF00A3B45C /* UserMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = D1EAC3212B69539400E2FEC6 /* UserMockData.json */; };
-		D16FA1C82B6A90FF00A3B45C /* RepoDetailsMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = D1E389F32B69A06B00C728F0 /* RepoDetailsMockData.json */; };
 		D16FA1C92B6A90FF00A3B45C /* UserReposMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = D1E389C52B695F4D00C728F0 /* UserReposMockData.json */; };
 		D16FA1CA2B6A910500A3B45C /* ClientHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C7F2B693172006C807E /* ClientHandler.swift */; };
 		D16FA1CB2B6A910500A3B45C /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109C7B2B692DAF006C807E /* NetworkConstants.swift */; };
@@ -84,8 +82,6 @@
 		D1E389EA2B699A7200C728F0 /* RepoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389E92B699A7200C728F0 /* RepoDetailsViewController.swift */; };
 		D1E389EC2B699A9000C728F0 /* RepoDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389EB2B699A9000C728F0 /* RepoDetailsPresenter.swift */; };
 		D1E389EE2B699AB300C728F0 /* RepoDetailsViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389ED2B699AB300C728F0 /* RepoDetailsViewDelegate.swift */; };
-		D1E389F02B699E3A00C728F0 /* RepoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389EF2B699E3A00C728F0 /* RepoDetails.swift */; };
-		D1E389F42B69A06B00C728F0 /* RepoDetailsMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = D1E389F32B69A06B00C728F0 /* RepoDetailsMockData.json */; };
 		D1E389F62B69A20D00C728F0 /* RepoTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389F52B69A20D00C728F0 /* RepoTag.swift */; };
 		D1E389F82B69A24E00C728F0 /* RepoTagsMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = D1E389F72B69A24E00C728F0 /* RepoTagsMockData.json */; };
 		D1E389FA2B69A39D00C728F0 /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E389F92B69A39D00C728F0 /* Commit.swift */; };
@@ -159,8 +155,6 @@
 		D1E389E92B699A7200C728F0 /* RepoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailsViewController.swift; sourceTree = "<group>"; };
 		D1E389EB2B699A9000C728F0 /* RepoDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailsPresenter.swift; sourceTree = "<group>"; };
 		D1E389ED2B699AB300C728F0 /* RepoDetailsViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailsViewDelegate.swift; sourceTree = "<group>"; };
-		D1E389EF2B699E3A00C728F0 /* RepoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetails.swift; sourceTree = "<group>"; };
-		D1E389F32B69A06B00C728F0 /* RepoDetailsMockData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RepoDetailsMockData.json; sourceTree = "<group>"; };
 		D1E389F52B69A20D00C728F0 /* RepoTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTag.swift; sourceTree = "<group>"; };
 		D1E389F72B69A24E00C728F0 /* RepoTagsMockData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RepoTagsMockData.json; sourceTree = "<group>"; };
 		D1E389F92B69A39D00C728F0 /* Commit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commit.swift; sourceTree = "<group>"; };
@@ -306,7 +300,6 @@
 			children = (
 				D1109C932B693BC5006C807E /* User.swift */,
 				D1E389C62B69601600C728F0 /* Repo.swift */,
-				D1E389EF2B699E3A00C728F0 /* RepoDetails.swift */,
 				D1E389F52B69A20D00C728F0 /* RepoTag.swift */,
 				D1E389F92B69A39D00C728F0 /* Commit.swift */,
 				D1109C842B6932A1006C807E /* APIError */,
@@ -465,7 +458,6 @@
 			children = (
 				D1EAC3212B69539400E2FEC6 /* UserMockData.json */,
 				D1E389C52B695F4D00C728F0 /* UserReposMockData.json */,
-				D1E389F32B69A06B00C728F0 /* RepoDetailsMockData.json */,
 				D1E389F72B69A24E00C728F0 /* RepoTagsMockData.json */,
 			);
 			path = MockData;
@@ -583,7 +575,6 @@
 				D1E389F82B69A24E00C728F0 /* RepoTagsMockData.json in Resources */,
 				D1E389C42B695D6800C728F0 /* UserMockData.json in Resources */,
 				D1109C562B692C21006C807E /* LaunchScreen.storyboard in Resources */,
-				D1E389F42B69A06B00C728F0 /* RepoDetailsMockData.json in Resources */,
 				D1109C8D2B69341A006C807E /* Localizable.strings in Resources */,
 				D12C41F92B6A53D000C178A2 /* VerticalTextTableViewCell.xib in Resources */,
 				D1E389FF2B69AE7D00C728F0 /* RepoHeaderView.xib in Resources */,
@@ -602,7 +593,6 @@
 				D16FA1DE2B6A926900A3B45C /* VerticalTextTableViewCell.xib in Resources */,
 				D16FA1DF2B6A926F00A3B45C /* HorisontalTextTableViewCell.xib in Resources */,
 				D16FA1E32B6A929000A3B45C /* Assets.xcassets in Resources */,
-				D16FA1C82B6A90FF00A3B45C /* RepoDetailsMockData.json in Resources */,
 				D16FA1C92B6A90FF00A3B45C /* UserReposMockData.json in Resources */,
 				D16FA1E22B6A928B00A3B45C /* Main.storyboard in Resources */,
 				D16FA1C62B6A90FF00A3B45C /* RepoTagsMockData.json in Resources */,
@@ -729,7 +719,6 @@
 				D1E38A402B6A4A8F00C728F0 /* HorisontalTextTableViewCell.swift in Sources */,
 				D1109C4A2B692C20006C807E /* AppDelegate.swift in Sources */,
 				D1E38A072B6A3B3300C728F0 /* RepoHeaderPresenter.swift in Sources */,
-				D1E389F02B699E3A00C728F0 /* RepoDetails.swift in Sources */,
 				D1109C4C2B692C20006C807E /* SceneDelegate.swift in Sources */,
 				D1E389F62B69A20D00C728F0 /* RepoTag.swift in Sources */,
 				D1E389CE2B69741900C728F0 /* UserReposViewController.swift in Sources */,
@@ -770,7 +759,6 @@
 				D1635C6E2B6A7BDE001FF5EC /* NFI_Test_UserReposPresenter.swift in Sources */,
 				D1635C712B6A7C06001FF5EC /* NetworkClient.swift in Sources */,
 				D16FA1CA2B6A910500A3B45C /* ClientHandler.swift in Sources */,
-				D16FA1C22B6A90F100A3B45C /* RepoDetails.swift in Sources */,
 				D16FA1BD2B6A8F3C00A3B45C /* APIProtocol.swift in Sources */,
 				D16FA1E12B6A928800A3B45C /* SceneDelegate.swift in Sources */,
 				D16FA1D42B6A913900A3B45C /* RepoDetailsViewDelegate.swift in Sources */,

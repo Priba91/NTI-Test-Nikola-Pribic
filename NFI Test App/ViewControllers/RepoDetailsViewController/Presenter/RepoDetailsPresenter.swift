@@ -11,7 +11,6 @@ class RepoDetailsPresenter {
     let view: RepoDetailsViewDelegate?
     let networkClient: APIProtocol
     var presentedRepo: Repo
-    var repoDetails: RepoDetails?
     var repoTags: [RepoTag]?
     var user: User?
 
@@ -21,19 +20,8 @@ class RepoDetailsPresenter {
         self.presentedRepo = presentedRepo
         self.user = user
     }
-    
-    func fetchRepoDetails() {
-        networkClient.getRepoDetails(for: presentedRepo) { repoDetails, error in
-            if let error = error {
-                self.view?.showError(error: error)
-                return
-            }
-            self.repoDetails = repoDetails
-            self.fetchRepoTags()
-        }
-    }
-    
-    private func fetchRepoTags() {
+        
+    func fetchRepoTags() {
         networkClient.getRepoTags(for: presentedRepo) { repoTags, error in
             if let error = error {
                 self.view?.showError(error: error)

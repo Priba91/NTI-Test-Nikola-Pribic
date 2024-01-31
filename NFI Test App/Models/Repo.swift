@@ -12,6 +12,9 @@ class Repo: Decodable {
     var name: String?
     var openIssuesCount: Int?
     var owner: User?
+    var forksCount: Int?
+    var watchersCount: Int?
+
         
     func getName() -> String {
         return name ?? ""
@@ -22,5 +25,7 @@ class Repo: Decodable {
         case name
         case openIssuesCount = "open_issues_count"
         case owner
+        case forksCount = "forks_count"
+        case watchersCount = "watchers_count"
     }
 }

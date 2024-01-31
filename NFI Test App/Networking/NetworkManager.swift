@@ -19,11 +19,7 @@ class NetworkManager: APIProtocol {
     func getUserRepos(completition: @escaping ([Repo]?, APIError?) -> Void) {
         client.getUserRepos(completition: completition)
     }
-    
-    func getRepoDetails(for repo: Repo, completition: @escaping (RepoDetails?, APIError?) -> Void) {
-        client.getRepoDetails(for: repo, completition: completition)
-    }
-    
+        
     func getRepoTags(for repo: Repo, completition: @escaping ([RepoTag]?, APIError?) -> Void) {
         client.getRepoTags(for: repo, completition: completition)
     }
